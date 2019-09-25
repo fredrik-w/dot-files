@@ -1,0 +1,10 @@
+#include ".Xresources.d/urxvt"
+#include ".Xresources.d/solarized-vanilla"
+#include ".Xresources.d/terminus"
+#include ".Xresources.d/xft-font"
+
+! XCursor size (https://wiki.archlinux.org/index.php/Cursor_themes#X_resources)
+Xcursor.size: 16
+
+
+

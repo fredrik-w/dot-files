@@ -1,0 +1,4 @@
+*font: xft:xos4 Terminus:pixelsize=20:antialias=false:hinting=true
+*boldFont: xft:xos4 Terminus:bold:pixelsize=20:antialias=false:hinting=true
+!*font: *font2: -*-terminus-medium-*-*-*-22-*-*-*-*-*-*-*
+

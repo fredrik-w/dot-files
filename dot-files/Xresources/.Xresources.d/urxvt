@@ -1,0 +1,16 @@
+!URxvt
+
+URxvt.termName: rxvt
+
+URxvt.cursorBlink: true
+URxvt.scrollBar: false
+URxvt.title: URxvt
+URxvt.geometry: 80x25
+
+! Transparency
+!URxvt.inheritPixmap: true
+!URxvt.shading: 9
+
+! Perl extensions
+URxvt.perl-ext-common: resize-font
+
