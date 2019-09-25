@@ -1,0 +1,1 @@
+/home/fredrik/Kod/github/vim-colors-solarized/colors/solarized.vim
