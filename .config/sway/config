@@ -242,4 +242,7 @@ exec swayidle
 # Floating windows
 for_window [app_id="galculator"] floating enable
 
+# Disable Xwayland (if available)
+#xwayland disable
+
 include /etc/sway/config.d/*
