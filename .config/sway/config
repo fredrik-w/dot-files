@@ -221,7 +221,7 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
-bindsym $mod+l exec "playerctl pause; swaylock --image ~/Dokument/Wallpapers/cherry-blossom.jpg  --indicator-caps-lock"
+bindsym $mod+l exec "playerctl pause; swaylock"
 
 # Floating windows
 for_window [app_id="galculator"] floating enable
