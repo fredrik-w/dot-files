@@ -54,21 +54,6 @@
     font-size: 13px;
 }
 
-/* Each module */
-#battery,
-#clock,
-#cpu,
-#custom-keyboard-layout,
-#memory,
-#mode,
-#network,
-#pulseaudio,
-#temperature,
-#tray {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 
 /* -----------------------------------------------------------------------------
  * Module styles
@@ -100,7 +85,10 @@
 
 #clock {
     font-weight: bold;
+/*
     font-family: monospace;
+*/
+min-width: 4rem;
 }
 
 #cpu {
