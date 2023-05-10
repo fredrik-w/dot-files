@@ -228,7 +228,10 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86Search exec $menu
 
-bindsym $mod+l exec "playerctl pause; swaylock"
+# Execute when screen is locked
+bindsym --locked XF86AudioPlay exec playerctl pause
+
+bindsym $mod+l exec swaylock
 
 # Floating windows
 for_window [app_id="galculator"] floating enable
