@@ -68,7 +68,7 @@
 
     "clock#time": {
         "interval": 1,
-        "format": "{:%H:%M:%S}",
+        "format": "{:%EX}",
         "tooltip": false
     },
 
