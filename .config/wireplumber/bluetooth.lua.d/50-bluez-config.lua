@@ -29,6 +29,7 @@ bluez_monitor.properties = {
   -- HFP/HSP backend (default: native).
   -- Available values: any, none, hsphfpd, ofono, native
   --["bluez5.hfphsp-backend"] = "native",
+  ["bluez5.hfphsp-backend"] = "none",
 
   -- Properties for the A2DP codec configuration
   --["bluez5.default.rate"] = 48000,
@@ -65,10 +66,10 @@ bluez_monitor.rules = {
       -- profiles have connected. Disabled by default if the property
       -- is not specified.
       --["bluez5.auto-connect"] = "[ hfp_hf hsp_hs a2dp_sink hfp_ag hsp_ag a2dp_source ]",
-      ["bluez5.auto-connect"]  = "[ hfp_hf hsp_hs ]",
+      ["bluez5.auto-connect"]  = "[ hsp_hs ]",
 
       -- Hardware volume control (default: [ hfp_ag hsp_ag a2dp_source ])
-      ["bluez5.hw-volume"] = "[ hsp_hs hsp_ag ]",
+      ["bluez5.hw-volume"] = "[ hsp_hs ]",
 
       -- LDAC encoding quality
       -- Available values: auto (Adaptive Bitrate, default)
