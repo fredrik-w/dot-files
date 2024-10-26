@@ -236,6 +236,9 @@ bindsym $mod+l exec swaylock
 # Floating windows
 for_window [app_id="galculator"] floating enable
 
+# Screenshot
+bindsym Shift+Print exec grim -g "$(slurp)" - | swappy -f -
+
 # Disable Xwayland (if available)
 #xwayland disable
 
